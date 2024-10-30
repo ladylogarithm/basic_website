@@ -10,8 +10,7 @@ header {
     text-align: center;
 }
 
-nav  
- {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -19,8 +18,7 @@ nav 
     background-color: #00FFFF;
 }
 
-nav ul   
- {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,18 +38,18 @@ nav li a {
     text-decoration: none;
 }
 
-nav li   
- a:hover {
-    background-color: #000000;   
-
+nav li a:hover {
+    background-color: #40E0D0;   
 }
 
 main {
     padding: 20px;
+    border-color: #FF7F50;
+    border: 5px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #90EE90;
 }
