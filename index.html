@@ -3,6 +3,31 @@
 <head>
     <title>Lisa Outlaw's Website</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+
+    /* Apply the color palette from Palette 2 */
+    th {
+      background-color: #2ecc71; /* Teal */
+      color: #ffffff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2; /* Light Gray */
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ffffff; /* White */
+    }
+  </style>
 </head>
 <body>
     <header id="home">
@@ -49,7 +74,50 @@
                 <li></li>
                 <li></li>
             </ul>
-    </p>  
+    </p> 
+
+          <table>
+    <tr>
+      <th>Color Name</th>
+      <th>Hex Code</th>
+      <th>Color Display</th>
+    </tr>
+    <tr>
+      <td>Teal</td>
+      <td>#2ecc71</td>
+      <td style="background-color: #2ecc71;"></td>
+    </tr>
+    <tr>
+      <td>Light Gray</td>
+      <td>#f2f2f2</td>
+      <td style="background-color: #f2f2f2;"></td>
+    </tr>
+    <tr>
+      <td>Dark Gray</td>
+      <td>#333333</td>
+      <td style="background-color: #333333;"></td>
+    </tr>
+    <tr>
+      <td>White</td>
+      <td>#ffffff</td>
+      <td style="background-color: #ffffff;"></td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>#000000</td>
+      <td style="background-color: #000000;"></td>
+    </tr>
+    <tr>
+      <td>Complementary Purple</td>
+      <td>#673ab7</td>
+      <td style="background-color: #673ab7;"></td>
+    </tr>
+    <tr>
+      <td>Complementary Pink</td>
+      <td>#ffb6c1</td>
+      <td style="background-color: #ffb6c1;"></td>
+    </tr>
+  </table>
     
     </main>
 
