@@ -40,11 +40,23 @@ nav li a {
 }
 
 nav li:first-child a:hover {
-    background-color: #40E0D0;   
+    background-color: #ff006c;  
 }
 
 nav li:nth-child(2) a:hover {
-    background-color: #000000;   
+    background-color: #0bff01;   
+}
+
+nav li:nth-child(3) a:hover {
+    background-color: #00ffea;   
+}
+
+nav li:nth-child(4) a:hover {
+    background-color: #FFFF00;   
+}
+
+nav li:nth-child(5) a:hover {
+    background-color: #ff006c;   
 }
 
 main {
