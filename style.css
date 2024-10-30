@@ -39,8 +39,12 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li:first-child a:hover {
     background-color: #40E0D0;   
+}
+
+nav li:nth-child(2) a:hover {
+    background-color: #000000;   
 }
 
 main {
